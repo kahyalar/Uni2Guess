@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="71dp"
+        android:id="@+id/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/contentDescriptionLogo"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/txtMail"
+        android:ems="10"
+        android:id="@+id/txtMail"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true">
+    </EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:layout_below="@+id/txtMail"
+        android:layout_alignStart="@+id/txtMail"
+        android:layout_marginTop="17dp"
+        android:id="@+id/txtPassword"
+        android:hint="@string/txtPassword"
+        android:fontFamily="sans-serif"/>
+
+    <Button
+        android:text="@string/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPassword"
+        android:layout_alignStart="@+id/txtPassword"
+        android:layout_marginTop="33dp"
+        android:id="@+id/btnSignup"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:text="@string/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSignup"
+        android:layout_alignEnd="@+id/txtPassword"
+        android:id="@+id/btnLogin"
+        android:background="#52b428"/>
+
+</RelativeLayout>
