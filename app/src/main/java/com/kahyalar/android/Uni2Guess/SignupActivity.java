@@ -31,7 +31,7 @@ public class SignupActivity extends AppCompatActivity {
         btnCreateNewUser_Click();
     }
 
-    public void btnCreateNewUser_Click(){
+    private void btnCreateNewUser_Click(){
         btnCreateNewUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
