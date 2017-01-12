@@ -89,5 +89,6 @@
         android:layout_below="@+id/pnlSignup"
         android:layout_centerHorizontal="true"
         android:text="Tamamla"
-        android:background="#7452b428"/>
+        android:background="#7452b428"
+        android:id="@+id/btnCreateNewUser"/>
 </RelativeLayout>
