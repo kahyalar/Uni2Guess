@@ -24,56 +24,56 @@
         android:layout_centerVertical="true"
         android:orientation="horizontal"
         android:id="@+id/pnlSignup">
-        <TextView android:text="İsminiz : "/>
+        <TextView android:text="@string/txtName"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/txtName" />
-        <TextView android:text="Soyisminiz : "/>
+        <TextView android:text="@string/txtSurname"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/txtSurname" />
-        <TextView android:text="Doğum Tarihiniz : "/>
+        <TextView android:text="@string/txtBirthDate"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="date"
             android:ems="10"
             android:id="@+id/txtBirthDate" />
-        <TextView android:text="Üniversiteniz : "/>
+        <TextView android:text="@string/txtUniversity"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/txtUniversity" />
-        <TextView android:text="Bölümünüz : "/>
+        <TextView android:text="@string/txtDepartment"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
             android:id="@+id/txtDepartment" />
-        <TextView android:text="Sınıfınız : "/>
+        <TextView android:text="@string/txtGrade"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
             android:id="@+id/txtGrade"/>
-        <TextView android:text="Şuanki Not Ortalamanız : "/>
+        <TextView android:text="@string/txtCurrentGPA"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:ems="10"
             android:id="@+id/txtCurrentGPA"/>
-        <TextView android:text="Öğrenci Emailiniz:"/>
+        <TextView android:text="@string/txtStudentMail"/>
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -88,7 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/pnlSignup"
         android:layout_centerHorizontal="true"
-        android:text="Tamamla"
+        android:text="@string/btnCreateNewUser"
         android:background="#7452b428"
-        android:id="@+id/btnCreateNewUser"/>
+        android:id="@+id/btnCreateNewUser"
+        android:layout_marginTop="20dp"/>
 </RelativeLayout>

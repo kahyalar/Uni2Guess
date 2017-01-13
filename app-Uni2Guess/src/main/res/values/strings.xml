@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Uni2Guess</string>
+    <string name="txtMail">"emailinizi giriniz.."</string>
+    <string name="txtPassword">"şifrenizi giriniz.."</string>
+    <string name="contentDescriptionLogo">"Logo of Uni2Guess"</string>
+    <string name="btnSignup">"Kayıt"</string>
+    <string name="btnLogin">"Giriş"</string>
+    <string name="txtName">"İsminiz : </string>
+    <string name="txtSurname">"Soyisminiz : </string>
+    <string name="txtBirthDate">"Doğum Gününüz : </string>
+    <string name="txtUniversity">"Üniversiteniz : </string>
+    <string name="txtDepartment">"Bölümünüz : </string>
+    <string name="txtGrade">"Sınıfınız : </string>
+    <string name="txtCurrentGPA">"Şuanki Not Ortalamanız : </string>
+    <string name="txtStudentMail">"Öğrenci Mailiniz : </string>
+    <string name="btnCreateNewUser">Tamamla</string>
+</resources>
