@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 /**
  * Created by kahyalar on 10/01/2017.
@@ -24,6 +25,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void initEvents(){
         btnSignup_Click();
+        btnLogin_Click();
     }
 
     private void btnSignup_Click(){
@@ -32,6 +34,18 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent signupIntent = new Intent(LoginActivity.this, SignupActivity.class);
                 startActivity(signupIntent);
+            }
+        });
+    }
+
+    private void btnLogin_Click(){
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String test = txtMail.getText().toString();
+                if(!test.contains("edu.tr")){
+                    Toast.makeText(LoginActivity.this, R.string.btnLogin_ClickError, Toast.LENGTH_LONG).show();
+                }
             }
         });
     }
