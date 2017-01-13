@@ -38,14 +38,18 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
+    private void checkEduTr(){
+        String test = txtMail.getText().toString();
+        if(!test.contains("edu.tr")){
+            Toast.makeText(LoginActivity.this, R.string.btnLogin_ClickError, Toast.LENGTH_LONG).show();
+        }
+    }
+
     private void btnLogin_Click(){
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String test = txtMail.getText().toString();
-                if(!test.contains("edu.tr")){
-                    Toast.makeText(LoginActivity.this, R.string.btnLogin_ClickError, Toast.LENGTH_LONG).show();
-                }
+                checkEduTr();
             }
         });
     }
