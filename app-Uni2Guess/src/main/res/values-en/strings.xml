@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">Uni2Guess</string>
-    <string name="txtMail">"emailinizi giriniz.."</string>
-    <string name="txtPassword">"şifrenizi giriniz.."</string>
+    <string name="txtMail">"enter email.."</string>
+    <string name="txtPassword">"enter password.."</string>
     <string name="contentDescriptionLogo">"Logo of Uni2Guess"</string>
-    <string name="btnSignup">"Kayıt"</string>
-    <string name="btnLogin">"Giriş"</string>
-    <string name="txtName">"İsminiz : </string>
-    <string name="txtSurname">"Soyisminiz : </string>
-    <string name="txtBirthDate">"Doğum Gününüz : </string>
-    <string name="txtUniversity">"Üniversiteniz : </string>
-    <string name="txtDepartment">"Bölümünüz : </string>
-    <string name="txtGrade">"Sınıfınız : </string>
-    <string name="txtCurrentGPA">"Şuanki Not Ortalamanız : </string>
-    <string name="txtStudentMail">"Öğrenci Mailiniz : </string>
-    <string name="btnCreateNewUser">Tamamla</string>
-    <string name="btnLogin_ClickError">"Lütfen öğrenci mailinizi girdiğinizden emin olun.."</string>
+    <string name="btnSignup">"Sign Up"</string>
+    <string name="btnLogin">"Login"</string>
+    <string name="txtName">"Name : </string>
+    <string name="txtSurname">"Surname : </string>
+    <string name="txtBirthDate">"Birthdate : </string>
+    <string name="txtUniversity">"University : </string>
+    <string name="txtDepartment">"Department : </string>
+    <string name="txtGrade">"Grade : </string>
+    <string name="txtCurrentGPA">"Current GPA : </string>
+    <string name="txtStudentMail">"Student Mail : </string>
+    <string name="btnCreateNewUser">Finish</string>
+    <string name="btnLogin_ClickError">Be sure to enter student mail.</string>
 </resources>
