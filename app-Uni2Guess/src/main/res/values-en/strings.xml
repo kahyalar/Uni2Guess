@@ -1,18 +1,18 @@
 <resources>
     <string name="app_name">Uni2Guess</string>
-    <string name="txtMail">"enter email.."</string>
-    <string name="txtPassword">"enter password.."</string>
-    <string name="contentDescriptionLogo">"Logo of Uni2Guess"</string>
-    <string name="btnSignup">"Sign Up"</string>
-    <string name="btnLogin">"Login"</string>
-    <string name="txtName">"Name : </string>
-    <string name="txtSurname">"Surname : </string>
-    <string name="txtBirthDate">"Birthdate : </string>
-    <string name="txtUniversity">"University : </string>
-    <string name="txtDepartment">"Department : </string>
-    <string name="txtGrade">"Grade : </string>
-    <string name="txtCurrentGPA">"Current GPA : </string>
-    <string name="txtStudentMail">"Student Mail : </string>
+    <string name="txtMail">enter email..</string>
+    <string name="txtPassword">enter password..</string>
+    <string name="contentDescriptionLogo">Logo of Uni2Guess</string>
+    <string name="btnSignup">Sign Up</string>
+    <string name="btnLogin">Login"</string>
+    <string name="txtName">Name : </string>
+    <string name="txtSurname">Surname : </string>
+    <string name="txtBirthDate">Birthdate : </string>
+    <string name="txtUniversity">University : </string>
+    <string name="txtDepartment">Department : </string>
+    <string name="txtGrade">Grade : </string>
+    <string name="txtCurrentGPA">Current GPA : </string>
+    <string name="txtStudentMail">Student Mail : </string>
     <string name="btnCreateNewUser">Finish</string>
     <string name="btnLogin_ClickError">Be sure to enter student mail.</string>
 </resources>
